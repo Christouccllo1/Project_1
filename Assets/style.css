@@ -1,0 +1,22 @@
+header{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw;
+
+}
+
+a{
+    text-decoration: none;
+   
+
+}
+nav a{
+    color: rgb(109, 108, 108);
+    padding: 1vw;
+}
+nav a:hover{
+    color: white;
+}
