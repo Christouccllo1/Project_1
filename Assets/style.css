@@ -20,3 +20,19 @@ nav a{
 nav a:hover{
     color: white;
 }
+
+.banner{
+    background-color: aqua;
+}
+.carousel{
+    height: 50vh;
+}
+
+
+/* About Page Style */
+.about h2{
+    text-align: center;
+    margin: 20px 0;
+    background-color: rgb(167, 166, 166);
+    padding: 10px;
+}
