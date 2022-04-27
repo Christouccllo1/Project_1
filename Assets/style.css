@@ -1,38 +1,77 @@
-header{
+header {
     background-color: black;
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1vw;
-
+    height: 10vh;
 }
 
-a{
+a {
     text-decoration: none;
-   
-
 }
-nav a{
+
+nav a {
     color: rgb(109, 108, 108);
     padding: 1vw;
 }
-nav a:hover{
+
+nav a:hover {
     color: white;
 }
 
-.banner{
+.banner {
     background-color: aqua;
 }
-.carousel{
-    height: 50vh;
+
+.carousel-item img {
+    height: 90vh;
+}
+
+.banner_heading>* {
+    color: white;
+    background-color: rgba(26, 26, 26, 0.743);
+    padding: 20px 0;
+}
+
+.banner_heading h2 {
+    margin: 20px 0;
+}
+
+.banner_heading {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+    top: 10%;
 }
 
 
 /* About Page Style */
-.about h2{
+
+.about h2 {
     text-align: center;
     margin: 20px 0;
-    background-color: rgb(167, 166, 166);
+    background-color:black;
+    color: gray;
     padding: 10px;
+}
+
+.about p{
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+.testimony{
+    margin: 30px;
+    background-color: gray;
+}
+.testimony h3{
+    text-align: center;
+}
+.testimony p{
+    text-align: left;
+    padding: 10px 0;
 }
