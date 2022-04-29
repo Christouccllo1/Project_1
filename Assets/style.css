@@ -52,10 +52,10 @@ nav a:hover {
 
 
 /* About Page Style */
-.about{
+.about, .services{
     max-width: 700px;
 }
-.about h2 {
+.about h2, .services h2 {
     text-align: center;
     margin: 20px 0;
     background-color:black;
@@ -84,4 +84,24 @@ nav a:hover {
 .info p{
     text-align: left;
 
+}
+
+/* Style Services Pg*/
+
+.service-container, .hours-container{
+    
+    padding: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 20px 0;
+}
+.service-container h3, .hours-container h3{
+    text-align: center;
+    background-color: gray;
+    margin-bottom: 30px;
+    padding: 10px;
+
+}
+.days{
+    font-size: 20px;
+    font-weight: 500;
 }
