@@ -52,10 +52,10 @@ nav a:hover {
 
 
 /* About Page Style */
-.about, .services{
+.about, .services, .where{
     max-width: 700px;
 }
-.about h2, .services h2 {
+.about h2, .services h2, .where h2 {
     text-align: center;
     margin: 20px 0;
     background-color:black;
@@ -88,7 +88,7 @@ nav a:hover {
 
 /* Style Services Pg*/
 
-.service-container, .hours-container{
+.service-container, .hours-container, .form-container{
     
     padding: 30px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -105,3 +105,20 @@ nav a:hover {
     font-size: 20px;
     font-weight: 500;
 }
+
+/* Styling Where page */
+.form-container span, form button{
+    background-color: black;
+    color: white;
+    padding: 3px 6px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    justify-content: space-around;    
+}
+form input{
+    padding: 15px;
+}
+
