@@ -1,4 +1,3 @@
-
 /** Home page style  ***/
 
 header {
@@ -52,84 +51,102 @@ nav a:hover {
 
 
 /* About Page Style */
-.about, .services, .where{
+.about,
+.services,
+.where {
     max-width: 700px;
 }
-.about h2, .services h2, .where h2 {
+
+.about h2,
+.services h2,
+.where h2 {
     text-align: center;
     margin: 20px 0;
-    background-color:black;
+    background-color: black;
     color: gray;
     padding: 10px;
 }
 
-.about p{
-    
+.about p {
+
     margin: 0 auto;
     text-align: center;
-    
+
 }
-.testimony{
+
+.testimony {
     margin: 30px 0;
-    padding: 40px; 
+    padding: 40px;
 }
-.testimony h3{
+
+.testimony h3 {
     text-align: center;
 }
-.testimony p{
+
+.testimony p {
     text-align: left;
     padding: 10px 0;
     width: 350px;
     color: aliceblue;
 }
 
-.testimony .carousel-inner{
+.testimony .carousel-inner {
     height: 300px;
     background-color: rgb(82, 82, 82);
 }
-.testimony .carousel-item{
+
+.testimony .carousel-item {
     padding: 60px;
     font-size: 16px;
 
 }
-.info p{
+
+.info p {
     text-align: left;
 
 }
 
 /* Style Services Pg*/
 
-.service-container, .hours-container, .form-container, .location-container{
-    
+.service-container,
+.hours-container,
+.form-container,
+.location-container {
+
     padding: 30px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: 20px 0;
 }
-.service-container h3, .hours-container h3{
+
+.service-container h3,
+.hours-container h3 {
     text-align: center;
     background-color: gray;
     margin-bottom: 30px;
     padding: 10px;
 
 }
-.days{
+
+.days {
     font-size: 20px;
     font-weight: 500;
 }
 
 /* Styling Where page */
-.form-container span, form button{
+.form-container span,
+form button {
     background-color: black;
     color: white;
     padding: 3px 6px;
 }
-form{
+
+form {
     display: flex;
     flex-direction: column;
     height: 500px;
-    justify-content: space-around;    
-}
-form input{
-    padding: 15px;
+    justify-content: space-around;
 }
 
+form input {
+    padding: 15px;
+}
