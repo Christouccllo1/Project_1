@@ -150,3 +150,11 @@ form {
 form input {
     padding: 15px;
 }
+.location-container .map img{
+    width: 100%;
+
+}
+.location-container .gallery img{
+    width: 100%;
+    margin-top: 30px;
+}
