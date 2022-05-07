@@ -1,4 +1,4 @@
-/** Home page style  ***/
+/************** Home page style  ********************/
 
 header {
     background-color: black;
@@ -36,6 +36,12 @@ nav a:hover {
     background-color: rgba(26, 26, 26, 0.743);
     padding: 20px 0;
 }
+.banner_heading h4{
+    background-color: none;
+    position: relative;
+    top: 550px;
+    width: 500px;
+}
 
 .banner_heading h2 {
     margin: 20px 0;
@@ -50,7 +56,7 @@ nav a:hover {
 }
 
 
-/* About Page Style */
+/************ About Page Style *******************/
 .about,
 .services,
 .where {
@@ -106,7 +112,7 @@ nav a:hover {
 
 }
 
-/* Style Services Pg*/
+/******************* Style Services Pg*********************/
 
 .service-container,
 .hours-container,
@@ -132,7 +138,7 @@ nav a:hover {
     font-weight: 500;
 }
 
-/* Styling Where page */
+/****************** Styling Where page ***********************/
 .form-container span,
 form button {
     background-color: black;
